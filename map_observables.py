@@ -20,3 +20,4 @@ with open(fbleau_input, mode='w') as f_input:
         if key not in d:
             d[key] = len(d)
         csv_writer.writerow([sender, d[key]])
+
